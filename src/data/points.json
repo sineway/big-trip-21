@@ -1,0 +1,312 @@
+[
+  {
+    "id": "e7ff019f-3298-4022-bdee-2961fe8ccca7",
+    "base_price": 7038,
+    "date_from": "2023-07-31T21:00:00.460Z",
+    "date_to": "2023-08-09T10:00:00.460Z",
+    "destination": "3cec8c6b-dbb7-4fb2-ad7d-371c6e2c6f32",
+    "is_favorite": true,
+    "offers": [
+      "e10440f3-9fe2-4ee0-834f-c0519a2108d5"
+    ],
+    "type": "restaurant"
+  },
+  {
+    "id": "49439c40-3ec8-43de-976c-7cde8176446e",
+    "base_price": 8087,
+    "date_from": "2023-07-28T21:00:00.460Z",
+    "date_to": "2023-08-09T05:00:00.460Z",
+    "destination": "71f97de3-6394-4123-9a72-c70fb9086d34",
+    "is_favorite": false,
+    "offers": [
+      "fc5c09cf-78e5-4428-b60a-518087945868",
+      "89c3959a-66e3-48fb-8f14-85e166d0658f",
+      "f8837550-b774-4a0b-96b4-4d88581c6749",
+      "56fb3bb7-0f78-42b7-bee2-1d07eb0abe4a"
+    ],
+    "type": "taxi"
+  },
+  {
+    "id": "b392ed73-1c58-4a5d-8eba-15dfbed336ec",
+    "base_price": 9478,
+    "date_from": "2023-08-01T21:00:00.460Z",
+    "date_to": "2023-08-10T13:00:00.460Z",
+    "destination": "3616737f-3bef-43d9-8c7d-5fbf11c6561b",
+    "is_favorite": false,
+    "offers": [],
+    "type": "sightseeing"
+  },
+  {
+    "id": "66788ff2-5a59-4414-aae5-b83e82703c81",
+    "base_price": 3402,
+    "date_from": "2023-07-27T21:00:00.460Z",
+    "date_to": "2023-08-10T20:00:00.460Z",
+    "destination": "71f97de3-6394-4123-9a72-c70fb9086d34",
+    "is_favorite": true,
+    "offers": [
+      "903c92aa-75c9-4edb-bb51-28bfde53bf2e",
+      "1228b78f-7437-4346-adcc-dd596a921b41",
+      "31563017-0362-4acd-929d-c963649af2b5"
+    ],
+    "type": "ship"
+  },
+  {
+    "id": "936ea22d-2d6a-45f6-ab1a-ec7e4f8167e1",
+    "base_price": 8574,
+    "date_from": "2023-08-03T21:00:00.460Z",
+    "date_to": "2023-08-09T10:00:00.460Z",
+    "destination": "3d539331-532d-4fd3-9c1a-a5541971efe8",
+    "is_favorite": false,
+    "offers": [
+      "b9dcd348-b635-4c02-9df6-60f8cc568f00"
+    ],
+    "type": "train"
+  },
+  {
+    "id": "b7721607-80ac-4d4b-b2dc-ca2caec7e63f",
+    "base_price": 9654,
+    "date_from": "2023-07-28T21:00:00.460Z",
+    "date_to": "2023-08-09T09:00:00.460Z",
+    "destination": "3d539331-532d-4fd3-9c1a-a5541971efe8",
+    "is_favorite": false,
+    "offers": [
+      "176ae8b1-aa5c-446d-9ad2-445ba18c20c8",
+      "90d941a4-f68d-4c5f-9c80-3dffe69d91ed",
+      "bc3cc4a3-20d2-41b9-a555-4c7323228d85"
+    ],
+    "type": "flight"
+  },
+  {
+    "id": "e9ae1516-65be-4367-9457-a21c5d1aa038",
+    "base_price": 7209,
+    "date_from": "2023-08-03T21:00:00.460Z",
+    "date_to": "2023-08-09T04:00:00.460Z",
+    "destination": "63128c31-ebef-4a73-81f7-19b3e94ed3c5",
+    "is_favorite": true,
+    "offers": [
+      "151d78ac-1f58-4379-af5c-11143f922ee0"
+    ],
+    "type": "bus"
+  },
+  {
+    "id": "8803015e-b006-4b5d-b990-bce0a8440fc9",
+    "base_price": 5822,
+    "date_from": "2023-07-31T21:00:00.460Z",
+    "date_to": "2023-08-09T10:00:00.460Z",
+    "destination": "3cec8c6b-dbb7-4fb2-ad7d-371c6e2c6f32",
+    "is_favorite": false,
+    "offers": [
+      "f8837550-b774-4a0b-96b4-4d88581c6749",
+      "56fb3bb7-0f78-42b7-bee2-1d07eb0abe4a"
+    ],
+    "type": "taxi"
+  },
+  {
+    "id": "4b938d56-e988-4497-b590-84cd1c6f22e1",
+    "base_price": 3021,
+    "date_from": "2023-07-28T21:00:00.460Z",
+    "date_to": "2023-08-10T11:00:00.460Z",
+    "destination": "3cec8c6b-dbb7-4fb2-ad7d-371c6e2c6f32",
+    "is_favorite": false,
+    "offers": [],
+    "type": "restaurant"
+  },
+  {
+    "id": "4df0864d-5ca0-4243-8883-5d09697bcca1",
+    "base_price": 861,
+    "date_from": "2023-08-05T21:00:00.460Z",
+    "date_to": "2023-08-10T02:00:00.460Z",
+    "destination": "3616737f-3bef-43d9-8c7d-5fbf11c6561b",
+    "is_favorite": true,
+    "offers": [
+      "89c3959a-66e3-48fb-8f14-85e166d0658f",
+      "f8837550-b774-4a0b-96b4-4d88581c6749",
+      "56fb3bb7-0f78-42b7-bee2-1d07eb0abe4a"
+    ],
+    "type": "taxi"
+  },
+  {
+    "id": "60973a77-0d61-4709-bad4-9ef8735e11f2",
+    "base_price": 9667,
+    "date_from": "2023-08-02T21:00:00.460Z",
+    "date_to": "2023-08-09T21:00:00.460Z",
+    "destination": "63128c31-ebef-4a73-81f7-19b3e94ed3c5",
+    "is_favorite": false,
+    "offers": [
+      "89c3959a-66e3-48fb-8f14-85e166d0658f",
+      "f8837550-b774-4a0b-96b4-4d88581c6749",
+      "56fb3bb7-0f78-42b7-bee2-1d07eb0abe4a"
+    ],
+    "type": "taxi"
+  },
+  {
+    "id": "31393abf-9a1a-4637-ab5c-483ef3f501ba",
+    "base_price": 7619,
+    "date_from": "2023-07-29T21:00:00.460Z",
+    "date_to": "2023-08-09T15:00:00.460Z",
+    "destination": "51cb4703-8895-439d-a2e0-c113d723ef29",
+    "is_favorite": true,
+    "offers": [],
+    "type": "sightseeing"
+  },
+  {
+    "id": "40acf913-1ec3-45d5-853a-d6a2b4b3830d",
+    "base_price": 235,
+    "date_from": "2023-08-03T21:00:00.460Z",
+    "date_to": "2023-08-09T21:00:00.460Z",
+    "destination": "46224961-67b1-4a72-add9-df15619c2e50",
+    "is_favorite": true,
+    "offers": [
+      "e10440f3-9fe2-4ee0-834f-c0519a2108d5"
+    ],
+    "type": "restaurant"
+  },
+  {
+    "id": "91dfc58e-995b-4014-bf14-1d1e1b08e74b",
+    "base_price": 9839,
+    "date_from": "2023-07-28T21:00:00.460Z",
+    "date_to": "2023-08-10T18:00:00.460Z",
+    "destination": "ce9767a8-c3ad-44f3-9273-f70c86c44ad4",
+    "is_favorite": true,
+    "offers": [],
+    "type": "sightseeing"
+  },
+  {
+    "id": "0bbf3c0d-0f8a-40c9-8362-50742613a429",
+    "base_price": 7946,
+    "date_from": "2023-08-04T21:00:00.460Z",
+    "date_to": "2023-08-09T20:00:00.460Z",
+    "destination": "ce9767a8-c3ad-44f3-9273-f70c86c44ad4",
+    "is_favorite": false,
+    "offers": [
+      "f8c4b069-67ac-44ea-8c2a-fe973f1cf9fb",
+      "b9dcd348-b635-4c02-9df6-60f8cc568f00"
+    ],
+    "type": "train"
+  },
+  {
+    "id": "ff2c65be-439c-432d-86a3-bf311e31b2cd",
+    "base_price": 4607,
+    "date_from": "2023-07-27T21:00:00.460Z",
+    "date_to": "2023-08-09T16:00:00.460Z",
+    "destination": "14422c85-bca6-48cc-9335-3132e08bcb4c",
+    "is_favorite": false,
+    "offers": [
+      "8c3c0a5f-c6c2-44ac-a74c-a16b5d6d6db6",
+      "fc5c09cf-78e5-4428-b60a-518087945868",
+      "89c3959a-66e3-48fb-8f14-85e166d0658f",
+      "f8837550-b774-4a0b-96b4-4d88581c6749",
+      "56fb3bb7-0f78-42b7-bee2-1d07eb0abe4a"
+    ],
+    "type": "taxi"
+  },
+  {
+    "id": "66d48be9-1613-4718-9809-6c943f4da5e9",
+    "base_price": 3810,
+    "date_from": "2023-07-28T21:00:00.460Z",
+    "date_to": "2023-08-09T13:00:00.460Z",
+    "destination": "ca6378f2-ee46-4b29-ac68-cd51d48b987f",
+    "is_favorite": true,
+    "offers": [],
+    "type": "bus"
+  },
+  {
+    "id": "74b079a1-56e0-4a11-bfbd-7b51e4ee1ebb",
+    "base_price": 5491,
+    "date_from": "2023-08-04T21:00:00.460Z",
+    "date_to": "2023-08-09T14:00:00.460Z",
+    "destination": "3d539331-532d-4fd3-9c1a-a5541971efe8",
+    "is_favorite": false,
+    "offers": [
+      "57267833-3b2e-45ca-beca-7dbed8475056",
+      "f8c4b069-67ac-44ea-8c2a-fe973f1cf9fb",
+      "b9dcd348-b635-4c02-9df6-60f8cc568f00"
+    ],
+    "type": "train"
+  },
+  {
+    "id": "89524188-0430-45d3-a3e6-6b952bec7365",
+    "base_price": 2860,
+    "date_from": "2023-08-01T21:00:00.460Z",
+    "date_to": "2023-08-10T21:00:00.460Z",
+    "destination": "14422c85-bca6-48cc-9335-3132e08bcb4c",
+    "is_favorite": true,
+    "offers": [
+      "f8c4b069-67ac-44ea-8c2a-fe973f1cf9fb",
+      "b9dcd348-b635-4c02-9df6-60f8cc568f00"
+    ],
+    "type": "train"
+  },
+  {
+    "id": "50003357-d0e1-48ed-9f63-0e368a82cd79",
+    "base_price": 491,
+    "date_from": "2023-08-01T21:00:00.460Z",
+    "date_to": "2023-08-10T14:00:00.460Z",
+    "destination": "ce9767a8-c3ad-44f3-9273-f70c86c44ad4",
+    "is_favorite": true,
+    "offers": [
+      "b9661f43-8b01-4993-93f1-74a33da7a7cf",
+      "7994ccc2-3740-46fa-9a9e-721772b54b33"
+    ],
+    "type": "drive"
+  },
+  {
+    "id": "abbb3fe9-6393-4efd-97fb-82680236c341",
+    "base_price": 6897,
+    "date_from": "2023-08-05T21:00:00.460Z",
+    "date_to": "2023-08-09T13:00:00.460Z",
+    "destination": "3cec8c6b-dbb7-4fb2-ad7d-371c6e2c6f32",
+    "is_favorite": false,
+    "offers": [
+      "031252c0-9d5b-4ae0-a693-ed8572d6ee33",
+      "176ae8b1-aa5c-446d-9ad2-445ba18c20c8",
+      "90d941a4-f68d-4c5f-9c80-3dffe69d91ed",
+      "bc3cc4a3-20d2-41b9-a555-4c7323228d85"
+    ],
+    "type": "flight"
+  },
+  {
+    "id": "94d4f935-c564-4c5f-9feb-80382fd7d929",
+    "base_price": 663,
+    "date_from": "2023-07-27T21:00:00.460Z",
+    "date_to": "2023-08-10T11:00:00.460Z",
+    "destination": "46224961-67b1-4a72-add9-df15619c2e50",
+    "is_favorite": true,
+    "offers": [],
+    "type": "sightseeing"
+  },
+  {
+    "id": "f8ef281d-5a42-44ac-b263-843b5714a9c5",
+    "base_price": 6718,
+    "date_from": "2023-07-31T21:00:00.460Z",
+    "date_to": "2023-08-10T11:00:00.460Z",
+    "destination": "14422c85-bca6-48cc-9335-3132e08bcb4c",
+    "is_favorite": true,
+    "offers": [
+      "b9dcd348-b635-4c02-9df6-60f8cc568f00"
+    ],
+    "type": "train"
+  },
+  {
+    "id": "575163a0-4507-4769-999f-2af3e7a6a156",
+    "base_price": 7276,
+    "date_from": "2023-07-30T21:00:00.460Z",
+    "date_to": "2023-08-09T17:00:00.460Z",
+    "destination": "51cb4703-8895-439d-a2e0-c113d723ef29",
+    "is_favorite": true,
+    "offers": [
+      "151d78ac-1f58-4379-af5c-11143f922ee0"
+    ],
+    "type": "bus"
+  },
+  {
+    "id": "a01b44e3-3695-4e28-a3fa-ce648e3a3027",
+    "base_price": 5055,
+    "date_from": "2023-07-30T21:00:00.460Z",
+    "date_to": "2023-08-10T13:00:00.460Z",
+    "destination": "63128c31-ebef-4a73-81f7-19b3e94ed3c5",
+    "is_favorite": true,
+    "offers": [],
+    "type": "sightseeing"
+  }
+]

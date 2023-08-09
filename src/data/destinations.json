@@ -1,0 +1,149 @@
+[
+  {
+    "id": "51cb4703-8895-439d-a2e0-c113d723ef29",
+    "description": "Venice - is a beautiful city",
+    "name": "Venice",
+    "pictures": [
+      {
+        "src": "https://21.objects.pages.academy/static/destinations/10.jpg",
+        "description": "Venice with a beautiful old town"
+      },
+      {
+        "src": "https://21.objects.pages.academy/static/destinations/18.jpg",
+        "description": "Venice middle-eastern paradise"
+      },
+      {
+        "src": "https://21.objects.pages.academy/static/destinations/19.jpg",
+        "description": "Venice a true asian pearl"
+      },
+      {
+        "src": "https://21.objects.pages.academy/static/destinations/14.jpg",
+        "description": "Venice with crowded streets"
+      }
+    ]
+  },
+  {
+    "id": "14422c85-bca6-48cc-9335-3132e08bcb4c",
+    "description": "Naples - with a beautiful old town",
+    "name": "Naples",
+    "pictures": []
+  },
+  {
+    "id": "63128c31-ebef-4a73-81f7-19b3e94ed3c5",
+    "description": "Milan - with an embankment of a mighty river as a centre of attraction",
+    "name": "Milan",
+    "pictures": [
+      {
+        "src": "https://21.objects.pages.academy/static/destinations/15.jpg",
+        "description": "Milan famous for its crowded street markets with the best street food in Asia"
+      }
+    ]
+  },
+  {
+    "id": "3d539331-532d-4fd3-9c1a-a5541971efe8",
+    "description": "Berlin - with an embankment of a mighty river as a centre of attraction",
+    "name": "Berlin",
+    "pictures": [
+      {
+        "src": "https://21.objects.pages.academy/static/destinations/14.jpg",
+        "description": "Berlin a true asian pearl"
+      },
+      {
+        "src": "https://21.objects.pages.academy/static/destinations/7.jpg",
+        "description": "Berlin with an embankment of a mighty river as a centre of attraction"
+      },
+      {
+        "src": "https://21.objects.pages.academy/static/destinations/13.jpg",
+        "description": "Berlin with a beautiful old town"
+      },
+      {
+        "src": "https://21.objects.pages.academy/static/destinations/5.jpg",
+        "description": "Berlin with a beautiful old town"
+      },
+      {
+        "src": "https://21.objects.pages.academy/static/destinations/5.jpg",
+        "description": "Berlin with an embankment of a mighty river as a centre of attraction"
+      }
+    ]
+  },
+  {
+    "id": "ce9767a8-c3ad-44f3-9273-f70c86c44ad4",
+    "description": "Amsterdam - a true asian pearl",
+    "name": "Amsterdam",
+    "pictures": [
+      {
+        "src": "https://21.objects.pages.academy/static/destinations/15.jpg",
+        "description": "Amsterdam with crowded streets"
+      }
+    ]
+  },
+  {
+    "id": "ca6378f2-ee46-4b29-ac68-cd51d48b987f",
+    "description": "Berlin - with a beautiful old town",
+    "name": "Berlin",
+    "pictures": [
+      {
+        "src": "https://21.objects.pages.academy/static/destinations/10.jpg",
+        "description": "Berlin with a beautiful old town"
+      },
+      {
+        "src": "https://21.objects.pages.academy/static/destinations/19.jpg",
+        "description": "Berlin with a beautiful old town"
+      },
+      {
+        "src": "https://21.objects.pages.academy/static/destinations/9.jpg",
+        "description": "Berlin with a beautiful old town"
+      },
+      {
+        "src": "https://21.objects.pages.academy/static/destinations/4.jpg",
+        "description": "Berlin full of of cozy canteens where you can try the best coffee in the Middle East"
+      }
+    ]
+  },
+  {
+    "id": "3616737f-3bef-43d9-8c7d-5fbf11c6561b",
+    "description": "Vien - with an embankment of a mighty river as a centre of attraction",
+    "name": "Vien",
+    "pictures": []
+  },
+  {
+    "id": "71f97de3-6394-4123-9a72-c70fb9086d34",
+    "description": "Helsinki - is a beautiful city",
+    "name": "Helsinki",
+    "pictures": [
+      {
+        "src": "https://21.objects.pages.academy/static/destinations/6.jpg",
+        "description": "Helsinki with a beautiful old town"
+      },
+      {
+        "src": "https://21.objects.pages.academy/static/destinations/18.jpg",
+        "description": "Helsinki full of of cozy canteens where you can try the best coffee in the Middle East"
+      }
+    ]
+  },
+  {
+    "id": "46224961-67b1-4a72-add9-df15619c2e50",
+    "description": "Nagasaki - full of of cozy canteens where you can try the best coffee in the Middle East",
+    "name": "Nagasaki",
+    "pictures": [
+      {
+        "src": "https://21.objects.pages.academy/static/destinations/3.jpg",
+        "description": "Nagasaki with a beautiful old town"
+      },
+      {
+        "src": "https://21.objects.pages.academy/static/destinations/17.jpg",
+        "description": "Nagasaki in a middle of Europe"
+      },
+      {
+        "src": "https://21.objects.pages.academy/static/destinations/20.jpg",
+        "description": "Nagasaki with a beautiful old town"
+      }
+    ]
+  },
+  {
+    "id": "3cec8c6b-dbb7-4fb2-ad7d-371c6e2c6f32",
+    "description": "Den Haag - full of of cozy canteens where you can try the best coffee in the Middle East",
+    "name": "Den Haag",
+    "pictures": []
+  }
+]
