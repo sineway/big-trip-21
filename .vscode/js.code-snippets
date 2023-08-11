@@ -43,5 +43,40 @@
       "  `;",
       "}"
     ]
+  },
+
+  "class Presenter": {
+    "scope": "javascript",
+    "prefix": "class Presenter",
+    "body": [
+      "import Presenter from './presenter.js';",
+      "",
+      "/**",
+      " * @typedef {import('../views/${TM_FILENAME_BASE/(.*?)-presenter/$1/}-view').default} View",
+      " * @typedef {import('../models/app-model').default} Model",
+      " *",
+      " * @extends {Presenter<View, Model>}",
+      " */",
+      "class ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/} extends Presenter {",
+      "  /**",
+      "   * @param {[View, Model]} rest",
+      "   */",
+      "  constructor(...rest) {",
+      "    super(...rest);",
+      "",
+      "    // this.view.addEventListener('change', this.onViewChange.bind(this));",
+      "  }",
+      "",
+      "  /**",
+      "   * @override",
+      "   */",
+      "  updateView() {",
+      "    this.view.render();",
+      "  }",
+      "}",
+      "",
+      "export default ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/};",
+      ""
+    ]
   }
 }
