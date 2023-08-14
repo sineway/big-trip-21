@@ -39,7 +39,13 @@ function formatDuration(valueFrom, valueTo) {
   return duration.format('mm[m]');
 }
 
-console.log(formatDuration('2023-08-15T13:00Z', '2023-08-15T14:00Z'));
+/**
+ * @param {number} value
+ * @returns {string}
+ */
+function formatNumber(value) {
+  return value.toLocaleString('en');
+}
 
 /**
  * @param {TemplateStringsArray} strings
@@ -66,5 +72,6 @@ export {
   formatDate,
   formatTime,
   formatDuration,
+  formatNumber,
   html
 };
