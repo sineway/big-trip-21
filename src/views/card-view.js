@@ -10,7 +10,7 @@ class CardView extends View {
   constructor() {
     super();
 
-    // this.classList.add('class1', 'class2');
+    this.addEventListener('click', this.onClick);
   }
 
   /**
@@ -154,6 +154,17 @@ class CardView extends View {
         <span class="visually-hidden">Open event</span>
       </button>
     `;
+  }
+
+  /**
+   * @param {PointerEvent & {
+   *  target: Element
+   * }} event
+   */
+  onClick(event) {
+    if (event.target.closest('.event__rollup-btn')) {
+      this.dispatch('open');
+    }
   }
 }
 
