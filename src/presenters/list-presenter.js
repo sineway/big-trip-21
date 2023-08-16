@@ -14,6 +14,7 @@ class ListPresenter extends Presenter {
     super(...rest);
 
     this.view.addEventListener('open', this.onViewOpen.bind(this));
+    this.view.addEventListener('close', this.onViewClose.bind(this));
   }
 
   /**
@@ -67,6 +68,14 @@ class ListPresenter extends Presenter {
     const params = this.navigation.getParams();
 
     params.edit = event.target.state.id;
+
+    this.navigation.setParams(params);
+  }
+
+  onViewClose() {
+    const params = this.navigation.getParams();
+
+    delete params.edit;
 
     this.navigation.setParams(params);
   }
