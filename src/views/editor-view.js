@@ -11,7 +11,7 @@ class EditorView extends View {
   constructor() {
     super();
 
-    // this.classList.add('class1', 'class2');
+    this.addEventListener('click', this.onClick);
   }
 
   /**
@@ -251,6 +251,17 @@ class EditorView extends View {
         </div>
       </section>
     `;
+  }
+
+  /**
+   * @param {PointerEvent & {
+   *  target: Element
+   * }} event
+   */
+  onClick(event) {
+    if (event.target.closest('.event__rollup-btn')) {
+      this.dispatch('close');
+    }
   }
 }
 
