@@ -27,7 +27,7 @@ class AppModel extends Model {
      * @type {Record<SortType, (pointA: PointModel, pointB: PointModel) => number>}
      */
     this.sortCallbacks = {
-      day: () => 0,
+      day: (pointA, pointB) => pointA.dateFromInMs - pointB.dateFromInMs,
       event: () => 0,
       time: () => 0,
       price: (pointA, pointB) => pointB.basePrice - pointA.basePrice,
@@ -46,7 +46,7 @@ class AppModel extends Model {
     // @ts-ignore
     this.offerGroups = offerGroups;
     console.table(
-      this.getPoints({sort: 'price'})
+      this.getPoints({sort: 'day'})
     );
   }
 
