@@ -12,6 +12,7 @@ class EditorView extends View {
     super();
 
     this.addEventListener('click', this.onClick);
+    this.addEventListener('change', this.onChange);
   }
 
   connectedCallback() {
@@ -279,6 +280,15 @@ class EditorView extends View {
     if (event.key?.startsWith('Esc')) {
       this.dispatch('close');
     }
+  }
+
+  /**
+   * @param {Event & {
+   *   target: HTMLInputElement
+   * }} event
+   */
+  onChange(event) {
+    this.dispatch('edit', event.target);
   }
 }
 
