@@ -158,6 +158,11 @@ class ListPresenter extends Presenter {
 
     if (input.name === 'event-end-time') {
       editor.state.dateTo = input.value;
+      return;
+    }
+
+    if (input.name === 'event-price') {
+      editor.state.basePrice = Number(input.value);
     }
   }
 }
