@@ -1,12 +1,14 @@
 import Model from './model.js';
 import PointModel from './point-model.js';
-import points from '../data/points.json';
-import destinations from '../data/destinations.json';
-import offerGroups from '../data/offers.json';
 
 class AppModel extends Model {
-  constructor() {
+  /**
+   * @param {import('../services/api-service').default} apiService
+   */
+  constructor(apiService) {
     super();
+
+    this.apiService = apiService;
 
     /**
      * @type {Array<Point>}
@@ -49,11 +51,14 @@ class AppModel extends Model {
    * @returns {Promise<void>}
    */
   async ready() {
-    // TODO: Получение данных с сервера
-    // @ts-ignore
+    const [points, destinations, offerGroups] = await Promise.all([
+      this.apiService.getPoints(),
+      this.apiService.getDestinations(),
+      this.apiService.getOfferGroups()
+    ]);
+
     this.points = points;
     this.destinations = destinations;
-    // @ts-ignore
     this.offerGroups = offerGroups;
   }
 
