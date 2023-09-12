@@ -6,6 +6,7 @@ import './views/list-view.js';
 import './views/placeholder-view.js';
 
 import AppModel from './models/app-model.js';
+import ApiService from './services/api-service.js';
 
 import BriefPresenter from './presenters/brief-presenter.js';
 import FilterPresenter from './presenters/filter-presenter.js';
@@ -13,6 +14,12 @@ import AddButtonPresenter from './presenters/add-button-presenter.js';
 import SortPresenter from './presenters/sort-presenter.js';
 import ListPresenter from './presenters/list-presenter.js';
 import PlaceholderPresenter from './presenters/placeholder-presenter.js';
+
+const apiService = new ApiService({authorization: 'Basic abc123'});
+
+apiService.getPoints();
+apiService.getDestinations();
+apiService.getOfferGroups();
 
 const appModel = new AppModel();
 
