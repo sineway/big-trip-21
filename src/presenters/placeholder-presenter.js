@@ -22,6 +22,8 @@ class PlaceholderPresenter extends Presenter {
       present: 'There are no present events now',
       past: 'There are no past events now'
     };
+
+    this.model.addEventListener('ready', this.onModelReady.bind(this));
   }
 
   /**
@@ -45,6 +47,19 @@ class PlaceholderPresenter extends Presenter {
     }
 
     return '';
+  }
+
+  /**
+   * @override
+   */
+  onReady() {
+    this.view.setState({
+      message: 'Loading...'
+    });
+  }
+
+  onModelReady() {
+    this.updateView();
   }
 }
 
