@@ -81,6 +81,20 @@ function formatNumber(value) {
 }
 
 /**
+ * @param {Array<string>} items
+ * @returns {string}
+ */
+function formatList(items) {
+  items = structuredClone(items);
+
+  if (items.length > 3) {
+    items.splice(1, items.length - 2, '...');
+  }
+
+  return items.join(' — ');
+}
+
+/**
  * @param {TemplateStringsArray} strings
  * @param {...any} values
  * @returns {string}
@@ -131,6 +145,7 @@ export {
   formatTime,
   formatDuration,
   formatNumber,
+  formatList,
   html,
   sanitize
 };
