@@ -26,6 +26,7 @@ class ListPresenter extends Presenter {
    */
   updateView() {
     const params = this.navigation.getParams();
+    const previousParams = this.navigation.getPreviousParams();
     const points = this.model.getPoints(params);
     const destinations = this.model.getDestinations();
     const offerGroups = this.model.getOfferGroups();
@@ -64,7 +65,10 @@ class ListPresenter extends Presenter {
       };
     });
 
-    this.view.setState({items});
+    this.view.setState({
+      items,
+      isAnimated: !('edit' in params) && !('edit' in previousParams)
+    });
   }
 
   /**
