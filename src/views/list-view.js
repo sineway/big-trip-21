@@ -27,6 +27,7 @@ import EditorView from './editor-view.js';
  *  isEditable: boolean
  *  isSaving?: boolean
  *  isDeleting?: boolean
+ *  isAnimated: boolean
  * }} ItemState
  *
  * @typedef {{
@@ -57,8 +58,14 @@ class ListView extends View {
       view.setAttribute('role', 'listitem');
       view.setState(item);
 
-      if (isAnimated) {
-        view.fadeInLeft({delay: 100 * index});
+      if (isAnimated || item.isAnimated) {
+        view.fadeInLeft({
+          delay: isAnimated ? (100 * index) : 0
+        });
+
+        if (item.isEditable) {
+          view.fadeInRight();
+        }
       }
 
       return view;
